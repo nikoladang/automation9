@@ -1,0 +1,5 @@
+
+get_captcha():
+	http://stackoverflow.com/questions/34575077/python-selenium-capture-captcha-in-a-scroll-down-page
+	http://stackoverflow.com/questions/36636255/selenium-downloading-different-captcha-image-than-the-one-in-browser
+	--http://stackoverflow.com/questions/15018372/how-to-take-partial-screenshot-with-selenium-webdriver-in-python/37924859
