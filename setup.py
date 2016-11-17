@@ -4,6 +4,7 @@
 	#$python setup.py register -r pypi
 	#$python setup.py sdist upload -r pypi
 	#$python setup.py register -r pypitest && python setup.py sdist upload -r pypitest && python setup.py register -r pypi && python setup.py sdist upload -r pypi && pip install automation9 --upgrade
+	#$pip install -v -v -v automation9
 ##https://hynek.me/articles/sharing-your-labor-of-love-pypi-quick-and-dirty/
 
 from setuptools import setup, find_packages
@@ -37,7 +38,7 @@ if __name__ == "__main__":
     setup(
       name = 'automation9',
       packages = ['automation9'], # this must be the same as the name above
-      version = '0.0.8',
+      version = '0.0.16',
       description = 'An automation library',
       author = 'Nikola Dang',
       author_email = 'ducthinhdt@gmail.com',
